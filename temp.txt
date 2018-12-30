@@ -1,0 +1,21 @@
+curl --request POST \
+  --url http://localhost:5005/webhooks/rest/webhook \
+  --header 'content-type: application/json' \
+  --data '{
+    "message": "I am sad"
+  }'
+
+
+  curl --request POST \
+    --url http://localhost:5005/webhooks/rest/webhook \
+    --header 'content-type: application/json' \
+    --data '{
+      "message": "so sad"
+    }'
+
+    curl --request POST \
+      --url http://localhost:5005/webhooks/rest/webhook \
+      --header 'content-type: application/json' \
+      --data '{
+        "message": "goodbye"
+      }'
